@@ -175,10 +175,15 @@ class GuiLogic(QMainWindow, Ui_MainWindow):
             '----------------------\n'
             '\n'
             'Select "ROLL" to roll a six-sided dice.\n'
+            '\n'
             'You may roll the dice as many times as you wish per turn.\n'
+            '\n'
             'Each roll\'s dice face value adds to your turn score - unless you roll a 1.\n'
+            '\n'
             'If a 1 is rolled, lose your turn points and your turn ends.\n'
+            '\n'
             'Select "HOLD" to bank your turn points into your total and end the turn.\n'
+            '\n'
             'Once the target score is reached, YOU WIN!\n'
         )
         self.show_message(instructions)
